@@ -15,7 +15,7 @@ $(document).ready(function(){
 //masonary
 
 
-    $('.grid').masonry(function(){
+    $('.grid').masonry({
       //options
       itemSelector: '.grid-item',
       columnWidth: 120,
